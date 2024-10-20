@@ -1,0 +1,108 @@
+/* General body background styling */
+body {
+    background: linear-gradient(to right, #f3a37e, #292e49);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Card container */
+.card {
+    max-width: 500px;
+    background: linear-gradient(to right, #f3a37e, #292e49);
+}
+
+/* Title styling */
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(46, 230, 61);
+}
+
+/* Input field and button */
+.input-group .form-control {
+    font-size: 1.25rem;
+}
+
+.btn {
+    background-color: #FF6347;
+    border-color: #FF6347;
+}
+
+.btn:hover {
+    background-color: #e55340;
+    border-color: #e55340;
+}
+
+/* Weather info container */
+#weather-info {
+    margin-top: 20px;
+}
+
+#city-name {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+#date {
+    font-size: 1rem;
+    color: #999;
+}
+
+#temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+#description, #wind-speed {
+    font-size: 1.25rem;
+    color: #FFD700;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Extra weather info */
+#extra-info p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Animations */
+.animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+/* Footer styling */
+footer {
+    width: 100%;                /* Full width */
+    height: 20px;               /* Fixed height */
+    background-color: #007bff;  /* Blue background (Bootstrap primary color) */
+    color: white;               /* White text color */
+    text-align: center;         /* Center text */
+    line-height: 20px;          /* Vertically center the text */
+    position: fixed;            /* Stick to the bottom of the page */
+    bottom: 0;                  /* Align at the very bottom */
+    left: 0;                    /* Align to the left edge */
+    right: 0;                   /* Align to the right edge */
+    font-size: 12px;            /* Small text size */
+    z-index: 1000;              /* Ensure footer is above other content */
+}
+
+/* Map container */
+#map-container {
+    color: rgb(0, 255, 170);
+    padding: 15px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.2); /* Light background to match the weather card */
+   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+#map {
+    border-radius: 10px; /* Rounded corners for the map */
+    height: 400px;       /* Height for the map */
+}
